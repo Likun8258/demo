@@ -12,6 +12,7 @@ public class DemoController {
     public String test(){
         System.out.println("hahahhahha");
         System.out.println("jasdjkahds");
+
         return "哈哈哈哈😄";
     }
 
