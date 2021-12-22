@@ -16,6 +16,7 @@ public class DemoController {
     @GetMapping(value = "/test")
     public String test(){
         System.out.println("hahahhahha");
+        System.out.println("dev分支测试");
         return "哈哈哈哈😄";
     }
 
