@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.time.*;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Random;
 
 @RestController
 @RequestMapping(value = "demo")
@@ -45,6 +46,26 @@ public class DemoController {
         Duration duration = Duration.between(LocalDateTime.of(2021,12,12,22,10,0), LocalDateTime.now());
         System.out.println(duration.toDays());
 
+        System.out.println("hahhahahhhahahhah");
+        for (int i = 0; i < 100; i++) {
+            System.out.println(getRandomFormList(1));
+        }
+
+        System.out.println("第一次测试");
+
+        System.out.println("GitHub");
+
+        System.out.println("Jenkins");
+
+
+
+
+
+
+    }
+
+    public static int getRandomFormList(int size){
+        return new Random().nextInt(size);
     }
 
 }
